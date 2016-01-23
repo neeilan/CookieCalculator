@@ -105,7 +105,7 @@ public class CookieCalculator extends Applet implements MouseListener, MouseMoti
 	add (south, BorderLayout.SOUTH);
 	//Audio (song- cookie dance)
 	audio = getAudioClip (getDocumentBase (), "cookiedance.au");
-	audio.play ();
+	audio.loop ();
 	//background image
 	img = getImage (getCodeBase (), "cookiesbg.png");
     }
